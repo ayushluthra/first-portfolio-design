@@ -1,0 +1,492 @@
+/*body*/
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+/*navigation list*/
+
+nav {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  color: deepskyblue;
+}
+
+nav a {
+  float: left;
+  padding: 14px 16px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  color: deepskyblue;
+  background-color: white;
+}
+
+nav a:last-child {
+  float: right;
+}
+
+nav a:link {
+  background-color: white;
+  color: deepskyblue;
+}
+
+nav a:hover {
+  background-color: deepskyblue;
+  color: white;
+  cursor: pointer;
+}
+nav a:active {
+  background-color: rgb(3, 39, 51);
+  color: white;
+}
+
+/*hero section*/
+
+div.hero {
+  margin-top: auto;
+  width: 100%;
+  height: 50vw;
+  background-image: url("heroimage1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+div.hero div.blank {
+  margin: 0px;
+  padding: 0px;
+  width: 50%;
+  height: 50vw;
+  float: left;
+}
+
+div.hero div.text {
+  margin: 0px;
+  padding: 0px;
+  width: 50%;
+  height: 50vw;
+  color: white;
+  font-size: 10px;
+  float: right;
+  text-align: center;
+}
+
+div.hero div.text div.content {
+  margin: 7vw 10vw;
+  padding: 1vw;
+  border: 0.5vw dashed white;
+  border-radius: 1vw;
+  font-size: 5vw;
+  text-align: center;
+}
+
+div.hero div.text div.content hr {
+  border-width: 2.5px;
+  border-style: solid;
+}
+
+div.hero div.text div.content:hover {
+  background-color: white;
+  color: deepskyblue;
+  border: 0.5vw dashed deepskyblue;
+  border-radius: 1vw;
+}
+
+/*about section*/
+
+div.about {
+  margin-top: 45px;
+  padding: 20px 0px;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  color: rgb(3, 39, 51);
+}
+
+div.about p {
+  color: darkgray;
+  font-size: 15px;
+}
+
+div.about div.aboutcontent {
+  margin: 20px 0px;
+  padding: 0px 20px;
+  height: 350px;
+}
+
+div.about div.aboutcontent div.meimage {
+  float: left;
+  width: 40%;
+}
+
+div.about div.aboutcontent div.meimage img {
+  margin: 20px;
+  border-radius: 300px;
+  width: 300px;
+  height: 300px;
+}
+
+div.about div.aboutcontent div.me {
+  height: 300px;
+  width: 60%;
+  float: right;
+  margin: 20px 0px;
+}
+
+div.about div.portfolio {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+div.about div.portfolio p {
+  text-align: justify;
+  padding-left: 10%;
+}
+
+div.about div.adrs {
+  width: 100%;
+  height: 150px;
+}
+
+div.about div.adrs div.adrsicon {
+  float: left;
+  width: 40%;
+  margin: 0px;
+  height: 150px;
+  display: block;
+  text-align: center;
+}
+
+div.about div.adrs div.adrsicon i {
+  font-size: 100px;
+  margin: 25px;
+}
+
+div.about div.adrs div.adrstext {
+  float: right;
+  width: 60%;
+  height: 150px;
+}
+
+div.about div.adrs div.adrstext address {
+  color: darkgray;
+  font-size: 15px;
+}
+
+/*acheivements section*/
+
+div.acheive {
+  margin-top: 45px;
+  padding: 20px 0px;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-color: white;
+}
+
+div.acheive h1 {
+  color: rgb(3, 39, 51);
+}
+
+div.gallery1 {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  text-align: center;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid darkgray;
+  float: left;
+  width: 180px;
+  height: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid rgb(3, 39, 51);
+  animation: shake 0.5s;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: rgb(3, 39, 51);
+}
+
+/*contact section*/
+
+div.contact {
+  margin-top: 45px;
+  width: 100%;
+  height: 75vw;
+}
+
+div.contact div.reach {
+  margin: 0vw;
+  padding: 0vw;
+  width: 50%;
+  height: 75vw;
+  float: left;
+  background-color: rgb(3, 39, 51);
+  color: white;
+}
+
+div.contact div.reach div.title {
+  margin: 0vw;
+  padding: 0.5vw 0vw;
+  text-align: center;
+  width: 50vw;
+  height: 5vw;
+  color: white;
+}
+
+div.contact div.reach div.title h1 {
+  margin: 0vw;
+  padding: 1vw;
+}
+
+div.contact div.reach div.section {
+  margin: 1.5vw 0vw;
+  padding: 0vw 0vw;
+  width: 50vw;
+  height: 20vw;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+div.contact div.reach div.section div.section1 {
+  margin: 2vw 6vw;
+  border: 0.1vw solid white;
+}
+div.section :hover {
+  animation: shake 0.5s;
+}
+div.contact div.reach div.section div.section1 i {
+  margin: 2vw;
+  font-size: 7vw;
+}
+
+div.contact div.reach div.section div.section2 {
+  margin: 2vw 6vw;
+  border: 0.1vw solid white;
+}
+
+div.contact div.reach div.section div.section2 i {
+  margin: 2vw;
+  font-size: 7vw;
+}
+
+div.contact div.reach div.section div.section3 {
+  margin: 2vw 6vw;
+  border: 0.1vw solid white;
+}
+
+div.contact div.reach div.section div.section3 i {
+  margin: 2vw;
+  font-size: 7vw;
+}
+
+div.section1 :hover {
+  animation: shake 0.5s;
+}
+
+div.section2 :hover {
+  animation: shake 0.5s;
+}
+
+div.section3 :hover {
+  animation: shake 0.5s;
+}
+
+div.contact div.form {
+  margin: 0vw;
+  padding: 0vw;
+  width: 50%;
+  height: 75vw;
+  background-color: white;
+  color: rgb(3, 39, 51);
+  font-size: 1.3vw;
+  float: right;
+  text-align: left;
+}
+
+div.contact div.form form {
+  margin: 0.5vw 6vw 2vw 6vw;
+  padding: 1vw 5vw;
+  height: 70vw;
+  color: rgb(3, 39, 51);
+  border: 0.5vw groove rgb(3, 39, 51);
+  outline: 0.2vw solid darkgrey;
+}
+
+div.contact div.form form label,
+input,
+select {
+  margin-bottom: 0.5vw;
+  color: rgb(3, 39, 51);
+}
+
+/*footer*/
+
+footer {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+div.find,
+div.find p {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+div.social {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+
+div.social a {
+  display: inline-block;
+}
+
+div.social a.facebook,
+a.github,
+a.youtube,
+a.linkedin,
+a.blogger,
+a.instagram,
+a.twitter:link {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+}
+
+div.social a:link {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+}
+
+div.social a.facebook:hover {
+  color: rgb(68, 107, 235);
+}
+
+div.social a.github:hover {
+  color: greenyellow;
+}
+
+div.social a.youtube:hover {
+  color: red;
+}
+
+div.social a.linkedin:hover {
+  color: rgb(66, 66, 223);
+}
+
+div.social a.blogger:hover {
+  color: rgb(250, 71, 6);
+}
+
+div.social a.instagram:hover {
+  color: deeppink;
+}
+
+div.social a.twitter:hover {
+  color: deepskyblue;
+}
+
+div.social a:active {
+  color: gray;
+}
+
+div.social a:visited {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+}
+
+div.social i {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+div.copyright {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+  width: 100%;
+  padding: 0px 0px;
+  text-align: center;
+}
+
+div.copyright p {
+  margin: 0px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}

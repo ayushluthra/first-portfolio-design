@@ -1,0 +1,195 @@
+/*html page body*/
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5vw;
+  margin: 0vw;
+  padding: 0vw;
+  background-color: lightgray;
+}
+
+/*navigation bar*/
+
+nav {
+  margin: 0vw;
+  padding: 0vw;
+  width: 100vw;
+  height: 4vw;
+  background-color: white;
+  color: deepskyblue;
+  position: fixed;
+  top: 0;
+}
+
+nav ul {
+  margin: 0vw;
+  padding: 0vw;
+  width: 100vw;
+  height: 4vw;
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  float: left;
+  padding: 1.1vw 2vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: white;
+  color: deepskyblue;
+}
+
+nav ul li:last-child {
+  float: right;
+}
+
+nav ul li a:link {
+  background-color: white;
+  color: deepskyblue;
+}
+
+nav ul li a:hover {
+  background-color: deepskyblue;
+  color: white;
+}
+nav ul li a:active {
+  background-color: rgb(3, 39, 51);
+  color: white;
+}
+
+/*hero section*/
+
+div.hero {
+  margin-top: 4vw;
+  width: 100vw;
+  height: 47vw;
+  background-image: url("heroimage1.jpg");
+  background-size: 100vw 47vw;
+  background-repeat: no-repeat;
+}
+
+div.hero div.blank {
+  margin: 0vw;
+  padding: 0vw;
+  width: 50vw;
+  height: 47vw;
+  float: left;
+}
+
+div.hero div.text {
+  margin: 0vw;
+  padding: 0vw;
+  width: 50vw;
+  height: 47vw;
+  color: white;
+  font-size: 10vw;
+  float: right;
+  text-align: center;
+}
+
+div.hero div.text h1.content {
+  margin: 4vw 10vw;
+  padding: 1vw;
+  border: 0.5vw dashed white;
+  border-radius: 1vw;
+  font-size: 5vw;
+  text-align: center;
+}
+
+div.hero div.text h1.content hr {
+  border-width: 0.25vw;
+  border-style: solid;
+}
+
+div.hero div.text h1.content:hover {
+  background-color: white;
+  color: deepskyblue;
+  border: 0.5vw dashed deepskyblue;
+  border-radius: 1vw;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+  width: 100vw;
+  height: 11vw;
+  padding: 1vw 0vw;
+  text-align: center;
+}
+
+footer div.find {
+  margin-bottom: 2vw;
+}
+
+footer div.social {
+  margin-bottom: 2vw;
+  font-size: 1.5vw;
+}
+
+footer div.social a {
+  padding-right: 1vw;
+  text-decoration: none;
+  background-color: rgb(6, 65, 85);
+  color: white;
+}
+
+footer div.social a.facebook,
+a.github,
+a.youtube,
+a.linkedin,
+a.blogger,
+a.instagram,
+a.twitter:link {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+}
+
+div.social a:link {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+}
+
+div.social a.facebook:hover {
+  color: rgb(68, 107, 235);
+}
+
+div.social a.github:hover {
+  color: greenyellow;
+}
+
+div.social a.youtube:hover {
+  color: red;
+}
+
+div.social a.linkedin:hover {
+  color: rgb(66, 66, 223);
+}
+
+div.social a.blogger:hover {
+  color: rgb(250, 71, 6);
+}
+
+div.social a.instagram:hover {
+  color: deeppink;
+}
+
+div.social a.twitter:hover {
+  color: deepskyblue;
+}
+
+div.social a:active {
+  color: gray;
+  background-color: rgb(6, 65, 85);
+}
+
+div.social a:visited {
+  background-color: rgb(6, 65, 85);
+  color: aliceblue;
+}
+
+div.copyright p {
+  margin: 0vw;
+}

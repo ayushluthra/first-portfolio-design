@@ -1,0 +1,85 @@
+@media screen and (max-width: 900px) {
+  /* navigation bar */
+  nav {
+    position: static;
+    width: 100%;
+  }
+  nav a {
+    float: none;
+    width: 100%;
+    font-size: 25px;
+  }
+  nav a:last-child {
+    float: none;
+    width: 100%;
+  }
+  /* about section */
+  div.about {
+    margin-top: auto;
+    text-align: center;
+  }
+  div.about div.aboutcontent {
+    height: 650px;
+  }
+  div.about div.aboutcontent div.meimage,
+  div.about div.aboutcontent div.me {
+    float: none;
+    width: 100%;
+  }
+  div.about div.aboutcontent div.me p {
+    margin: 0% 20%;
+    text-align: justify;
+    font-size: 15px;
+  }
+  div.about div.portfolio {
+    margin-top: 20px;
+  }
+  div.about div.adrs {
+    height: 300px;
+    margin-top: 40px;
+  }
+  div.about div.adrs div.adrsicon,
+  div.about div.adrs div.adrstext {
+    float: none;
+    width: 100%;
+  }
+  /* contact section */
+  div.contact {
+    height: 150vw;
+    margin-top: auto;
+  }
+  div.contact div.reach,
+  div.contact div.reach div.title,
+  div.contact div.reach div.section,
+  div.contact div.form {
+    width: 100%;
+  }
+  div.contact div.form form label,
+  input,
+  select {
+    font-size: 1.3vw;
+  }
+  /* acheive section */
+  div.acheive {
+    margin-top: auto;
+    height: auto;
+  }
+  div.gallery1 {
+    height: 400px;
+  }
+  div.gallery {
+    float: none;
+    width: 100%;
+    height: 300px;
+  }
+  footer {
+    width: 100%;
+  }
+  div.social a {
+    width: 100%;
+    text-align: center;
+  }
+  div.desc {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,45 @@
+/*portrait phone*/
+@media screen and (max-width: 576px) {
+  nav ul {
+    margin: 0vw 30vw;
+  }
+
+  nav ul li:last-child {
+    float: left;
+  }
+}
+/*landscape phone*/
+@media screen and (max-width: 786px) {
+  div.contact {
+    height: 150vw;
+    margin-top: auto;
+  }
+  div.contact div.reach,
+  div.contact div.reach div.title,
+  div.contact div.reach div.section,
+  div.contact div.form {
+    width: 100%;
+  }
+  div.contact div.form form label,
+  input,
+  select {
+    font-size: 1.3vw;
+  }
+}
+
+/*tablet*/
+@media screen and (max-width: 992px) {
+  nav ul {
+    margin: 0vw 30vw;
+  }
+
+  nav ul li:last-child {
+    float: left;
+  }
+}
+/*desktop*/
+@media screen and (max-width: 1200px) {
+}
+/*large desktop*/
+@media screen and (min-width: 1200px) {
+}

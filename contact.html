@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>contact</title>
+    <link rel="icon" href="profileimage.jpg" sizes="35x35" type="image/png" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="medianew.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <!--navigation bar-->
+    <nav>
+      <a href="home.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="acheivements.html">ACHEIVEMENTS</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+    <!--contact section-->
+    <div class="contact">
+      <div class="reach">
+        <div class="title"><h1>CONTACT ME HERE:</h1></div>
+        <div class="section">
+          <div class="section1">
+            <i class="fas fa-phone-alt"></i>
+            <p>CALL ON 9958136675</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section2">
+            <i class="fab fa-whatsapp"></i>
+            <p>WHATSAPP AT 9958136675</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section3">
+            <i class="fas fa-envelope"></i>
+            <p>MAIL AT ayushluthra24@gmial.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <form>
+          <h2>Fill up the form to show your interest</h2>
+          <label for="fname">First Name:</label>
+          <br />
+          <input type="text" id="fname" name="fname" required />
+          <br />
+          <label for="lname">Last Name:</label>
+          <br />
+          <input type="text" id="lname" name="lname" required />
+          <br />
+          <label for="gender">Gender:</label>
+          <br />
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other" />
+          <label for="other">Other</label>
+          <br />
+          <label for="dob">Date of Birth:</label>
+          <br />
+          <input type="date" id="dob" name="dob" required />
+          <br />
+          <label for="email">Mail Id:</label>
+          <br />
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="pno">Mobile Number:</label>
+          <br />
+          <input type="tel" id="pno" name="pno" min="10" max="10" required />
+          <br />
+          <label for="country">Country</label>
+          <br />
+          <input
+            type="text"
+            id="country"
+            name="country"
+            value="India"
+            disabled
+          />
+          <br />
+          <label for="state">State:</label>
+          <br />
+          <select name="state" id="state" required>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Andaman and Nicobar Islands"
+              >Andaman and Nicobar Islands</option
+            >
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Dadar and Nagar Haveli"
+              >Dadar and Nagar Haveli</option
+            >
+            <option value="Daman and Diu">Daman and Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Puducherry">Puducherry</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+          </select>
+          <br />
+          <label for="city">City:</label>
+          <br />
+          <input type="text" id="city" name="city" required />
+          <br />
+          <label for="addr1">Address Line 1:</label>
+          <br />
+          <input type="text" id="addr1" name="addr1" required />
+          <br />
+          <label for="addr2">Address Line 2:</label>
+          <br />
+          <input type="text" id="addr2" name="addr2" />
+          <br />
+          <label for="pcode">Pin Code:</label>
+          <br />
+          <input type="number" id="pcode" name="pcode" required />
+          <br />
+          <input
+            type="submit"
+            style="
+              background-color: rgb(3, 39, 51);
+              color: white;
+              margin-right: 10px;
+              border-radius: 10px;
+              padding: 5px;
+            "
+          />
+          <input
+            type="reset"
+            style="
+              background-color: rgb(3, 39, 51);
+              color: white;
+              border-radius: 10px;
+              padding: 5px;
+            "
+          />
+        </form>
+      </div>
+    </div>
+    <!--footer-->
+    <footer>
+      <!--social-->
+      <div class="find"><p>Find me on:</p></div>
+      <div class="social">
+        <a
+          class="facebook"
+          href="https://www.facebook.com/BST-Bhartiya-Soft-Tech-101266421646113"
+          target="blank"
+          ><i class="fab fa-facebook"><br />facebook</i></a
+        >
+        <a
+          class="github"
+          href="https://github.com/ayushluthra/Ayush"
+          target="blank"
+          ><i class="fab fa-github"><br />github</i></a
+        >
+        <a
+          class="youtube"
+          href="https://www.youtube.com/channel/UCrSjZrENoMIvpB5ZjE8n_Ug/"
+          target="blank"
+          ><i class="fab fa-youtube"><br />youtube</i></a
+        >
+        <a class="linkedin" href="http://www.linkedin.com" target="blank"
+          ><i class="fab fa-linkedin"><br />linkedin</i></a
+        >
+        <a
+          class="blogger"
+          href="https://bhartiyasofttech.blogspot.com/"
+          target="blank"
+          ><i class="fab fa-blogger"><br />blog</i></a
+        >
+        <a class="instagram" href="http://www.instagram.com" target="blank"
+          ><i class="fab fa-instagram"><br />instagram</i></a
+        >
+        <a class="twitter" href="http://www.twitter.com" target="blank"
+          ><i class="fab fa-twitter"><br />twitter</i></a
+        >
+      </div>
+      <!--copyright-->
+      <div class="copyright">
+        <p>copyright © Ayush Luthra 2020 | developed by Ayush Luthra</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
